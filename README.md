@@ -1,12 +1,32 @@
-See projekt on Pythonis tehtud Tic Tac Toe mäng, kasutades Tkinterit.
-Mäng võimaldab kahel mängijal sisestada oma nimed ja mängida.
+# Tic Tac Toe – Python Tkinter Game
 
-Projekt sisaldab:
--taustapilti
--mängijate nimede sisestamist
--võitja kontrolli
--viigi kontrolli
--uue mängu alustamist
+Lihtne Tic Tac Toe mäng Pythonis, kasutades Tkinterit ja Pillow teeki.
 
-Enne programmi käivitamist tuleb paigalda Pillow, et saaks jpeg faile kasutada.
-Kood "os.chdir(os.path.dirname(os.path.abspath(__file__)))" on mõeldud programmi töökausta muutmist samaks kaustaks, kus asub sinu .py fail.
+## Funktsioonid
+
+- Kahe mängija mäng
+- Mängijate nimede sisestamine
+- Võitja tuvastamine
+- Viigi tuvastamine
+- Võidurea esiletõstmine
+- Taustapildi kasutamine
+- Uue mängu alustamine
+
+---
+
+## Kasutatavad teegid
+
+### Tkinter
+Graafilise kasutajaliidese (GUI) loomiseks.
+
+### Pillow (PIL)
+Pildi laadimiseks ja suuruse muutmiseks.
+
+---
+
+## Vajalikud paigaldused
+
+Installi Pillow:
+
+```bash
+pip install pillow
